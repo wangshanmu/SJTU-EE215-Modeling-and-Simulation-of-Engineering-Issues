@@ -1,2 +1,10 @@
 # SJTU-EE215-Modeling-and-Simulation-of-Engineering-Issues
 The course projects of Modeling and Simulation of Engineering Issues.
+## Exercises: Knapsack problem and Sudoku problem
+In the first exercise, the GA(Genetic Algorithm) is used to solve Knapsack problem. We assume that there are 16 items, each of which has a different volume, weight, and value. It is required to select several of them and put them in a backpack, so that the total value of the items put in is as high as possible. The backpack has a capacity of no more than 95 (volume units) and can bear a weight of no more than 86 (weight units). In exercise 2, we used the optimized traversal algorithm to solve the 9th-order Sudoku problem.
+
+## Project 1: The Calibration Problem of a Measuring Device in Large-Scale Manufacturing
+This project takes a certain temperature sensor module as the research object, and aims to find a calibration procedure solution, so that the calibration efficiency can be improved as much as possible under the premise of ensuring the accuracy, and the calibration cost can be reduced. Because there are too many options for taking points, the exhaustive search method will consume a lot of time. The **genetic algorithm** is a heuristic search method that imitates the genetic mechanism of nature. In this project, the measurement points are randomly selected, the cubic spline interpolation method is used to fit and analyze the data, and the genetic algorithm is used to find the most optimal point plan.
+
+## Project 2: The Reliability Evaluation and Optimization Problem of A Multi-node Sonar System’s Synchronous Clock Mechanism
+Taking a multi-node sonar system as an example, this project uses the **Monte Carlo simulation method** to study the reliability of the synchronization clock mechanism and the system life. The simulation results show that with the increase in the number of working nodes, the reliability and the system life both show a trend of increasing first and then decreasing slowly.
